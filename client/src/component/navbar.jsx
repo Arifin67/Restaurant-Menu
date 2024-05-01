@@ -1,8 +1,8 @@
-const Navbar = () => {
+const Sidebar = () => {
   return (
     <>
       {/* sidebar */}
-      <div className="hidden md:flex flex-col w-1/5 bg-blue-800">
+      <div className="hidden md:flex flex-col w-1/5 bg-blue-800 relative">
         <div className="flex items-center justify-center h-16 ">
           <span className="text-white font-bold uppercase">Sidebar</span>
         </div>
@@ -74,4 +74,4 @@ const Navbar = () => {
     </>
   );
 };
-export default Navbar;
+export default Sidebar;
